@@ -1,0 +1,56 @@
+#canvas1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid black;
+    background: linear-gradient(to bottom, lightblue, rgb(192, 255, 252), rgb(96, 211, 221))
+}
+
+#gameover {
+    z-index: 1;
+    position: absolute;
+    width: 400px;
+    height: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.5);
+    display: none;
+}
+
+#sound {
+    cursor: pointer;
+    z-index: 1;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-650%, +730%);
+}
+
+#youwon {
+    width: 100px;
+    position: absolute;
+    top: 200px;
+    left: 150px;
+    display: none;
+}
+
+#youlose {
+    width: 400px;
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    display: none;
+}
+
+#restart {
+    position: absolute;
+    top: 310px;
+    left: 155px;
+    cursor: pointer;
+    font-size: 1.25em;
+    color: #FFF;
+}
